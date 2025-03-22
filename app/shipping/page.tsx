@@ -1,7 +1,6 @@
 'use client';
 
 import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
 import { motion } from 'framer-motion';
 
 export default function Shipping() {
@@ -64,7 +63,6 @@ export default function Shipping() {
     }
   ];
 
-  // Анимационные варианты для начальной загрузки страницы
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -200,7 +198,7 @@ export default function Shipping() {
                   Если у вас остались вопросы по доставке или возврату товаров, пожалуйста, свяжитесь с нашей службой поддержки клиентов.
                 </p>
                 <motion.a
-                  href="mailto:support@matulee.com"
+                  href="mailto:support@matuleme.ru"
                   className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#48B2E7] to-[#0076B1] text-white rounded-full font-medium shadow-md hover:shadow-lg"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -215,7 +213,6 @@ export default function Shipping() {
           </div>
         </section>
       </main>
-      <Footer />
     </motion.div>
   );
 } 

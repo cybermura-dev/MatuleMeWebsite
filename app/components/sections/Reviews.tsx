@@ -116,7 +116,6 @@ export default function Reviews() {
     next: "bg-gradient-to-r from-[#48B2E7] to-[#0076B1] text-white hover:scale-110"
   };
 
-  // Генерация пузырей для фона с фиксированными размерами и позициями
   const bubbles = useMemo(() => [
     {
       id: 0,

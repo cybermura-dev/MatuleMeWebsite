@@ -79,7 +79,7 @@ export default function Features() {
   };
 
   return (
-    <section id="features" className="py-20 bg-gray-50">
+    <section id="features" className="py-20 bg-[#f6f8fa]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <motion.h2 

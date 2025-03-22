@@ -49,7 +49,7 @@ export default function AppShowcase() {
   };
 
   return (
-    <section id="app" className="py-20 bg-gray-50">
+    <section id="app" className="py-20 bg-[#f6f8fa]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <motion.h2 

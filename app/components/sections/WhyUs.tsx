@@ -27,7 +27,7 @@ export default function WhyUs() {
 
   return (
     <section className="py-20 relative overflow-hidden">
-      <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-gray-50 to-transparent"></div>
+      <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-[#f6f8fa] to-transparent"></div>
       
       <div className="container mx-auto px-4">
         <div className="text-center mb-20">
@@ -155,7 +155,7 @@ export default function WhyUs() {
         </div>
       </div>
       
-      <div className="absolute bottom-0 inset-x-0 h-40 bg-gradient-to-t from-gray-50 to-transparent"></div>
+      <div className="absolute bottom-0 inset-x-0 h-40 bg-gradient-to-t from-[#f6f8fa] to-transparent"></div>
       
       <style jsx>{`
         @keyframes ticker {

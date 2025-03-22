@@ -135,3 +135,83 @@
   -moz-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
 }
+
+@layer utilities {
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .responsive-text {
+    font-size: 16px;
+  }
+  
+  .responsive-title {
+    font-size: 24px;
+  }
+  
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .responsive-p {
+    padding: 1.5rem;
+  }
+  
+  .responsive-m {
+    margin: 1.5rem;
+  }
+  
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+@media (pointer: coarse) {
+  input, button, a, select, textarea {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  p, li {
+    line-height: 1.6;
+  }
+}
+
+@media (min-width: 640px) {
+  .responsive-text {
+    font-size: 18px;
+  }
+  
+  .responsive-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 640px) {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    touch-action: manipulation;
+    overscroll-behavior: none;
+  }
+  
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-height: 450px) and (max-width: 767px) and (orientation: landscape) {
+  .keyboard-open .fixed {
+    position: absolute !important;
+  }
+}

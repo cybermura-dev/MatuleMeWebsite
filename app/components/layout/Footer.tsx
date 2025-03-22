@@ -14,16 +14,6 @@ export default function Footer() {
       ]
     },
     {
-      title: "Обувь",
-      links: [
-        { name: "Теннис", href: "/categories/tennis" },
-        { name: "Баскетбол", href: "/categories/basketball" },
-        { name: "Уличные", href: "/categories/street" },
-        { name: "Для мужчин", href: "/categories/men" },
-        { name: "Для женщин", href: "/categories/women" },
-      ]
-    },
-    {
       title: "Информация",
       links: [
         { name: "Доставка и возврат", href: "/shipping" },
@@ -114,7 +104,7 @@ export default function Footer() {
             
             <div>
               <h3 className="text-lg font-medium mb-3">Свяжитесь с нами</h3>
-              <p className="text-gray-400">support@matuleme.com</p>
+              <p className="text-gray-400">support@matuleme.ru</p>
             </div>
           </motion.div>
           

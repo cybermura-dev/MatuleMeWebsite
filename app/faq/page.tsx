@@ -2,7 +2,6 @@
 
 import { useState, useRef } from 'react';
 import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function FAQ() {
@@ -398,7 +397,7 @@ export default function FAQ() {
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <motion.a
-                    href="mailto:support@matulee.com"
+                    href="mailto:support@matuleme.ru"
                     className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#48B2E7] to-[#0076B1] text-white rounded-full font-medium shadow-md hover:shadow-lg"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -425,7 +424,6 @@ export default function FAQ() {
           </div>
         </section>
       </main>
-      <Footer />
     </motion.div>
   );
 } 

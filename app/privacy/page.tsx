@@ -1,8 +1,7 @@
 'use client';
 
-import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
 import { motion } from 'framer-motion';
+import Header from '../components/layout/Header';
 
 export default function Privacy() {
   const sections = [
@@ -40,11 +39,10 @@ export default function Privacy() {
     },
     {
       title: "Контакты",
-      content: "Если у вас есть вопросы или предложения относительно нашей Политики конфиденциальности, пожалуйста, свяжитесь с нами по адресу электронной почты: support@matulee.com."
+      content: "Если у вас есть вопросы или предложения относительно нашей Политики конфиденциальности, пожалуйста, свяжитесь с нами по адресу электронной почты: support@matuleme.ru."
     }
   ];
 
-  // Анимационные варианты для начальной загрузки страницы
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -97,7 +95,7 @@ export default function Privacy() {
                   variants={childVariants}
                   className="text-gray-600 mb-8"
                 >
-                  Последнее обновление: 1 июня 2023 г.
+                  Последнее обновление: 21 марта 2025 г.
                 </motion.p>
 
                 {sections.map((section, index) => (
@@ -118,7 +116,6 @@ export default function Privacy() {
           </div>
         </section>
       </main>
-      <Footer />
     </motion.div>
   );
 } 

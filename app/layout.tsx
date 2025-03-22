@@ -1,23 +1,26 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
+import Footer from './components/layout/Footer'
+import LayoutContent from './components/layout/LayoutContent'
 
 const inter = Inter({ subsets: ['latin', 'cyrillic'] })
 
 export const metadata: Metadata = {
-  title: 'Matule Me | Спортивная обувь для активной жизни',
-  description: 'Matule Me предлагает широкий выбор спортивной обуви для любых активностей. Найдите идеальную пару для ваших тренировок и повседневной жизни.',
+  title: 'Matule Me - Мобильное приложение для спортивной обуви',
+  description: 'Matule Me — ваш надежный магазин качественной спортивной обуви. Широкий выбор моделей для бега, тренировок и повседневной носки. Доставка по всей России.',
 }
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <html lang="ru">
+    <html lang="ru" className="scroll-smooth">
       <body className={inter.className}>
-        {children}
+        <LayoutContent>{children}</LayoutContent>
+        <Footer />
       </body>
     </html>
   )
