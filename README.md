@@ -125,7 +125,7 @@ To work with this project, you need:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/takeshikodev/MatuleMeWebsite.git
+   git clone https://github.com/cybermura-dev/MatuleMeWebsite.git
    cd MatuleMeWebsite
    ```
 
@@ -396,4 +396,4 @@ We welcome contributions to the project! To contribute:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2025 Takeshiko 
+Copyright (c) 2025 cybermura 
